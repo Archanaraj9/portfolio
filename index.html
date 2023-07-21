@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8ab53941d5.js"crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="name">Archana</span></h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" style="display: none;" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars " style="display: none;" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Designer</p>
+          <h1>
+            Hi, I'm <span>Archana</span><br />
+            from India
+          </h1>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+          </div>
+          <div class="about-col-2"></div>
+          <h1 class="sub-title">About Me</h1>
+          
+          <p>
+            Hiiii........ Iam Archana from JNTUA College of Engineering
+            Pulivendula(Kadapa).........Iam currently studiying BTECH Fourth year in
+            Computer Science and Engineering......Iam Webdeveloper and Data Analytics........
+          </p>
+
+          
+          <div class="tab-contents active-tab" id="skills">
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+            </div>
+            <ul>
+              <li><span>Python</span><br />Python project</li>
+              <li><span>Front-end Development</span><br />Html, Css, JavaScript</li>
+              <li><span>Web Development</span><br />React js, Angular js</li>
+            </ul>
+          </div>
+          <div class="tab-contents active-tab" id="Experience">
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Experience')">
+                Experience
+              </p>
+            </div>
+            <ul>
+              <li>
+                <span>2023-current</span><br/>Internship based on Front-end</li>
+              <li>
+                <span>2021-2022</span><br />Secured third place in IBM Skillbuild Project(Data Analytics)</li>
+              <li>
+                <span>2020-2021</span><br />Completed IBM Skillbuild camp on Data Analytics</li>
+            </ul>
+          </div>
+          <div class="tab-contents active-tab" id="Education">
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+            </div>
+            <ul>
+              <li>
+                <span>2020-24</span><br />Btech from JNTUA College of Engineering Pulivendula</li>
+              <li><span>2018-20</span><br />Inter from vivekananda college</li>
+              <li><span>2012-18</span><br />Girls High School</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div id="Services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+
+            <h2>Web Design</h2>
+            <p>iam a fron-tend developer and full stack developer</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-regular fa-crop-simple"></i>
+            <h2>UX/UI</h2>
+            <p>iam a UX/UI and full stack developer</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Data Analytics</h2>
+            <p>Experience on Data Analytics</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./assets/work-1.png" />
+            <div class="layer">
+              <h3>Work-1</h3>
+              <br />
+              <p>
+                This is my phase-1 work.......
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./assets/work-2.png" />
+            <div class="layer">
+              <h3>Work-2</h3>
+              <br />
+              <p>
+                This is my phase-2 work.........
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./assets/work-3.png" />
+            <div class="layer">
+              <h3>work-3</h3>
+              <br />
+              <p>
+                This is my phase-3 work.........
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="a" class="btn">See More</a>
+      </div>
+    </div>
+
+
+
+
+
+    <div id="Contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-brands fa-envelope"></i>sakearchana2@gmail.com</P>
+            <p><i class="fa-brands fa-phone"></i>0123456789</p>
+            <P><i class="fa-brands fa-linkedin"></i>https://www.linkedin.com/in/sake-archana-672478219/</P>
+            <div class="social-icons">
+              <a href="https:/facebook.com"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://help.twitter.com"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a
+              href="./assets/my-cv.pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="Email" name="Email" placeholder="Your Email" required />
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright # Made <i class="fa-solid fa-heart"></i> by @Archana</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablinks of tablinks) {
+          tablink.classlist.remove("active-link");
+        }
+        for (tabcontents of tabcontents) {
+          tabcontents.classlist.remove("active-tab");
+        }
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classlist.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
